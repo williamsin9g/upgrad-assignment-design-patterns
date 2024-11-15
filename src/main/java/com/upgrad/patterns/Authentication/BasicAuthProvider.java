@@ -5,12 +5,12 @@ public class BasicAuthProvider extends AuthenticationProvider {
     private String password;
 
     public BasicAuthProvider(String userName, String password) {
-        this.userName = "India";
-        this.password = "India";
+        this.userName = "Testing";
+        this.password = "Testing";
     }
 
     @Override
     public boolean Authenticate() {
-        return "India".equals(userName) && "India".equals(password);
+        return "Testing".equals(userName) && "Testing".equals(password);
     }
 }
